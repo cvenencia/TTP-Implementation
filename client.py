@@ -8,7 +8,7 @@ class Client:
 client = Client()
 
 conn = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-conn.connect(("127.0.0.1", 8000))
+conn.connect(("127.0.0.1", 8001))
 
 # Send client ID to TTP
 conn.sendall(client.id.to_bytes(8, "little"))
