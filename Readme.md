@@ -46,6 +46,8 @@ The code is brief and very well documented. Please feel free to ask any question
 
 First run the trusted third party script (ttp.py) in one terminal window, then run the client script in two separate terminal windows.
 
+A successful run should look like this:
+![alt text](https://i.ibb.co/BBPc4DK/Whats-App-Image-2022-05-14-at-10-35-17-PM.jpg "Succesful test run")
 ```
 $cd /../proyectlocation/
 $python tty.py
